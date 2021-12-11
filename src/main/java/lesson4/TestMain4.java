@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.LinkedList;
 
 public class TestMain4 {
-
+//  Не успеваю
     private static TwoSideLinkedList<Integer> linkedList;
 
     public static void main(String[] args) {
