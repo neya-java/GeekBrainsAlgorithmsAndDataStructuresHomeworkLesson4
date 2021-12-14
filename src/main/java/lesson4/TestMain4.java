@@ -8,8 +8,8 @@ public class TestMain4 {
     private static TwoSideLinkedList<Integer> linkedList;
 
     public static void main(String[] args) {
-//        testLinkedList();
-//        testHomeWork();
+        testLinkedList();
+        testHomeWork();
         testIterator();
     }
 
@@ -46,9 +46,11 @@ public class TestMain4 {
     private static void testHomeWork() {
         //ДОЛЖНО РАБОТАТЬ! Iterable - LinkedListIterator impl Iterator
 
-/*        for (Integer value : linkedList) {
+        SimpleLinkedListImpl<Integer> linkedList = new SimpleLinkedListImpl<>();
+
+        for (Integer value : linkedList) {
             System.out.println("value: " + value);
-        }*/
+        }
     }
 
 
@@ -56,9 +58,9 @@ public class TestMain4 {
         List<Integer> linkedList = new LinkedList<>();
         Collections.addAll(linkedList, 1, 2, 3, 4, 5, 6, 7 );
 
-/*        for (Integer integer : integerList) {
-            System.out.println(integer);
-        }*/
+//        for (Integer integer : linkedList) {
+//            System.out.println(integer);
+//        }
 
 //        Iterator<Integer> iterator = linkedList.iterator();
 //        while (iterator.hasNext()) {
